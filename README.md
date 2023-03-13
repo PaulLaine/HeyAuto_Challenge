@@ -52,4 +52,6 @@ A simple DAG could look like this :
 
 ![image](https://user-images.githubusercontent.com/63043011/224770154-d8e3e0b1-afc2-438f-8e93-44ec3f4d84fd.png)
 
+As part of this process, all validation steps are indepedent so we can process them at the same time and merge every results before splitting our dataset into the accepted and rejected vehicles.
+
 
