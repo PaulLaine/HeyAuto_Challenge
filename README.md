@@ -18,21 +18,21 @@ To do so, I'll convert HeyAuto data into a Spark DataFrame and apply the process
 ### 3 - Git repository
 
 This repository is composed of 5 files :
-- data_heyauto.csv -> Set of data for the challenge
-- HeyAuto_DataChallenge.ipynb -> Preliminary and descriptive Python Notebook to process all different steps of the data challenge
-- main.py -> Main Python file to process all steps direclty
+- data_heyauto.csv -> Set of data for the challenge.
+- HeyAuto_DataChallenge.ipynb -> Preliminary and descriptive Python Notebook to process all different steps of the data challenge.
+- main.py -> Main Python file to process all steps.
 - validation_functions.py -> Python file containing all validation functions.
-- postgres_connector.py -> (Additional) Python file to realise the reading and writing part between PostgreSQL and Spark DataFrame.
+- postgres_connector.py -> (Additional) Python file to realize the reading and writing part between PostgreSQL and Spark DataFrame.
 
 ### 4 - Result 
 
 To understand the detail of the full process, you can first read the HeyAuto_DataChallenge notebook where every step of the reading, transformation and validation process is described with the result in the table.
 
-When now launching the main.py script, we obtain the following results :
+When we now launch the main.py script, we obtain the following results :
 
 ![image](https://user-images.githubusercontent.com/63043011/224767985-329a09a3-83f7-41cf-93ca-13080ddfa39c.png)
 
-We can see that we obtain the accepted and rejected vehicles in 2 different tables and for the rejected vehicles.
+We can see that we obtain the accepted and rejected vehicles in 2 different tables and for the rejected vehicles, a detail of the validation steps 
 
 ### 5 - Additional tasks and Improvement 
 
