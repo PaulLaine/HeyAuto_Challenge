@@ -36,7 +36,7 @@ if __name__ == '__main__':
     heyauto_val3_df = validFunc.has_feature(heyauto_val2_df, "failed", "year", "hasNotYear")
     
     # Validation 4 - hasCondition
-    heyauto_val4_df = validFunc.has_feature(heyauto_val3_df, "failed", "Condition", "hasNotMake")
+    heyauto_val4_df = validFunc.has_feature(heyauto_val3_df, "failed", "Condition", "hasNotCondition")
     
     # Validation 5 - validVin
     heyauto_val5_df = validFunc.is_valid_length(heyauto_val4_df, "failed", "vin", 17, "notValidVin")
