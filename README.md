@@ -30,7 +30,7 @@ To understand the detail of the full process, you can first read the HeyAuto_Dat
 
 When we now launch the main.py script, we obtain the following results :
 
-![image](https://user-images.githubusercontent.com/63043011/224767985-329a09a3-83f7-41cf-93ca-13080ddfa39c.png)
+![image](https://user-images.githubusercontent.com/63043011/224799207-a4496e5e-ef36-42f1-adf2-37a9a546d7bf.png)
 
 We can see that we obtain the accepted and rejected vehicles in 2 different tables and for the rejected vehicles, a detail of the validation steps that didn't passed.
 
