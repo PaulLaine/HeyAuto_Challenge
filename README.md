@@ -50,4 +50,6 @@ This validation process is something that could be integrated as part of a frequ
 
 A simple DAG could look like this : 
 
+![image](https://user-images.githubusercontent.com/63043011/224770154-d8e3e0b1-afc2-438f-8e93-44ec3f4d84fd.png)
+
 
