@@ -28,4 +28,7 @@ This repository is composed of 5 files :
 
 To understand the detail of the full process, you can first read the HeyAuto_DataChallenge notebook.
 
-To now 
+When now launching the main.py script, we obtain the following results :
+
+We can see that we obtain the accepted and rejected vehicles in 2 different tables and for the rejected vehicles
+### 5 
