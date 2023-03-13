@@ -32,7 +32,7 @@ When we now launch the main.py script, we obtain the following results :
 
 ![image](https://user-images.githubusercontent.com/63043011/224767985-329a09a3-83f7-41cf-93ca-13080ddfa39c.png)
 
-We can see that we obtain the accepted and rejected vehicles in 2 different tables and for the rejected vehicles, a detail of the validation steps 
+We can see that we obtain the accepted and rejected vehicles in 2 different tables and for the rejected vehicles, a detail of the validation steps that didn't passed.
 
 ### 5 - Additional tasks and Improvement 
 
@@ -42,7 +42,7 @@ Being an data storing tool that you are currently using, I added the postgres_co
 
 With this implementation we could also think of some practices to handle different situation :
 - An incremental loading to progessively add every day/week/month/... to our tables, the information of the vehicles that has pass or not the validation process.
-- Storing our results into a different system like Microsoft Azure or Snowflake to 
+- Storing our results into a different system like Microsoft Azure or Snowflake.
 
 ##### b. Automate our workflow with Airflow 
 
